@@ -17,6 +17,9 @@ public class User {
     private Integer age;
     private String email;
 
+    @TableLogic //逻辑删除
+    private Integer deleted;
+
     @Version  //乐观锁version注解
     private Integer version;
 
