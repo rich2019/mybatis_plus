@@ -1,4 +1,4 @@
-package test;
+package com.kuang.test;
 
 public class Hello {
     public static void main(String[] args) {
